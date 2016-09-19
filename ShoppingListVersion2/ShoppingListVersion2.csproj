@@ -170,12 +170,18 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\NoteViewsController.cs" />
+    <Compile Include="Controllers\ShoppingListItemViewsController.cs" />
+    <Compile Include="Controllers\ShoppingListViewsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\NoteView.cs" />
+    <Compile Include="Models\ShoppingListView.cs" />
+    <Compile Include="Models\ShoppingListItemView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -234,6 +240,24 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\ShoppingListItem.cshtml" />
+    <Content Include="Views\Home\Note.cshtml" />
+    <Content Include="Views\ShoppingListViews\Create.cshtml" />
+    <Content Include="Views\ShoppingListViews\Delete.cshtml" />
+    <Content Include="Views\ShoppingListViews\Details.cshtml" />
+    <Content Include="Views\ShoppingListViews\Edit.cshtml" />
+    <Content Include="Views\ShoppingListViews\Index.cshtml" />
+    <Content Include="Views\ShoppingListItemViews\Create.cshtml" />
+    <Content Include="Views\ShoppingListItemViews\Delete.cshtml" />
+    <Content Include="Views\ShoppingListItemViews\Details.cshtml" />
+    <Content Include="Views\ShoppingListItemViews\Edit.cshtml" />
+    <Content Include="Views\ShoppingListItemViews\Index.cshtml" />
+    <Content Include="Views\NoteViews\Create.cshtml" />
+    <Content Include="Views\NoteViews\Delete.cshtml" />
+    <Content Include="Views\NoteViews\Details.cshtml" />
+    <Content Include="Views\NoteViews\Edit.cshtml" />
+    <Content Include="Views\NoteViews\Index.cshtml" />
+    <Content Include="Views\ShoppingListViews\ShoppingListViewsList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

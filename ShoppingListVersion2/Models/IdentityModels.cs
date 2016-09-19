@@ -29,5 +29,11 @@ namespace ShoppingListVersion2.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<ShoppingListVersion2.Models.ShoppingListView> ShoppingListViews { get; set; }
+
+        public System.Data.Entity.DbSet<ShoppingListVersion2.Models.ShoppingListItemView> ShoppingListItemViews { get; set; }
+
+        public System.Data.Entity.DbSet<ShoppingListVersion2.Models.NoteView> NoteViews { get; set; }
     }
 }
