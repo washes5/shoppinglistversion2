@@ -26,5 +26,12 @@ namespace ShoppingListVersion2.Controllers
 
             return View();
         }
+
+        public ActionResult ShoppingListItemsView()
+        {
+            ViewBag.Message = "Your current lists.";
+
+            return View();
+        }
     }
 }

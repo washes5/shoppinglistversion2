@@ -55,8 +55,8 @@ namespace ShoppingListVersion2
             //   consumerSecret: "");
 
             //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+                //appId: "1700939290232461",
+                //appSecret: "");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
