@@ -15,10 +15,8 @@ namespace ShoppingListVersion2.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: ShoppingListViews
-        public ActionResult Index()
-        {
-            return View(db.ShoppingListViews.ToList());
-        }
+      
+    
 
         // GET: ShoppingListViews/Details/5
         public ActionResult Details(int? id)
