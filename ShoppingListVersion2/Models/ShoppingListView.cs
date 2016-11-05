@@ -14,4 +14,5 @@ namespace ShoppingListVersion2.Models
         public DateTimeOffset CreatedUtc { get; set; }
         public DateTimeOffset ModifiedUtc { get; set; }
     }
+   
 }

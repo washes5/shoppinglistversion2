@@ -260,6 +260,7 @@
     <Content Include="Views\NoteViews\Index.cshtml" />
     <Content Include="Views\ShoppingListViews\ShoppingListViewsList.cshtml" />
     <Content Include="Views\Home\ShoppingListItemsView.cshtml" />
+    <Content Include="Views\Home\AllShoppingListsView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
